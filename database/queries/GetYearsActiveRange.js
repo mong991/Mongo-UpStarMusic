@@ -8,13 +8,13 @@ const Artist = require('../models/artist');
 module.exports = () => {
   const minQuery = Artist
     .find({})
-    .sort({ age: 1 })
+    .sort({ yearsActive: 1 })
     .limit(1)
     .then(artists => artists[0].yearsActive);
 
   const maxQuery = Artist
     .find({})
-    .sort({ age: -1 })
+    .sort({ yearsActive: -1 })
     .limit(1)
     .then(artists => artists[0].yearsActive);
 
