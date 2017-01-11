@@ -1,12 +1,18 @@
 # UpStarMusic
-Starter Repo for a MongoDB course on Udemy
+Use electron and mongoose implement UpStarMusic
 
-You can download this repository by using the green `Clone or Download` button on the right hand side of this page.  This will present you with the option to either clone the repository using Git, or to download it as a zip file.
+##Used
+1. electron => 1.4.5
+2. faker => 3.1.0
+3. lodash => 3.10.1
+4. mongodb => 2.2.11
+5. mongoose => 4.6.6
+6. react => 0.14.3
 
-If you want to download it using git, copy paste the link that is presented to you, then run the following at your terminal:
-
+## Install
 ```
-git clone https://github.com/StephenGrider/UpStarMusic.git
-cd UpStarMusic
-npm install
+  > git clone https://github.com/mong991/Mongo-UpStarMusic.git
+  > cd Mongo-UpStarMusic
+  > npm install
+  > npm start
 ```
