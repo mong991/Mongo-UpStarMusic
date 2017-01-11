@@ -1,6 +1,9 @@
 # UpStarMusic
 Use electron and mongoose implement UpStarMusic
 
+##Screenshot
+![alt text](https://github.com/mong991/Mongo-UpStarMusic/blob/master/screen_shot/UpStarMusic.PNG "UpStarMusic")
+
 ##Used
 1. electron => 1.4.5
 2. faker => 3.1.0
